@@ -1,0 +1,32 @@
+# ---- Keil MDK build output ----
+# Keil 把 .o/.axf/.hex 都塞在 MDK-ARM/<target名>/ 下面，约 41 MB
+MDK-ARM/lanqiao15/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+
+# 用户界面布局、调试配置、编译器缓存
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dep
+*.bak
+*.hex
+*.axf
+*.map
+*.lnp
+*.crf
+*.o
+*.d
+*.lst
+*.htm
+*.build_log.htm
+
+# ---- 本地备份 ----
+编码备份_Core/
+
+# ---- OS ----
+Thumbs.db
+desktop.ini
+.DS_Store
